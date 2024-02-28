@@ -17,7 +17,10 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"hitbox_create","order":1,"path":"scripts/hitbox_create/hitbox_create.yy",},
     {"name":"spr_hurtbox","order":1,"path":"sprites/spr_hurtbox/spr_hurtbox.yy",},
     {"name":"obj_hurtbox","order":1,"path":"objects/obj_hurtbox/obj_hurtbox.yy",},
+    {"name":"obj_hitbox","order":2,"path":"objects/obj_hitbox/obj_hitbox.yy",},
+    {"name":"spr_hitbox","order":2,"path":"sprites/spr_hitbox/spr_hitbox.yy",},
   ],
 }

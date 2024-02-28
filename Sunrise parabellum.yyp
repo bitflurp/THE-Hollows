@@ -31,11 +31,14 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"hitbox_create","path":"scripts/hitbox_create/hitbox_create.yy",},},
     {"id":{"name":"spr_hurtbox","path":"sprites/spr_hurtbox/spr_hurtbox.yy",},},
     {"id":{"name":"obj_hurtbox","path":"objects/obj_hurtbox/obj_hurtbox.yy",},},
+    {"id":{"name":"obj_hitbox","path":"objects/obj_hitbox/obj_hitbox.yy",},},
+    {"id":{"name":"spr_hitbox","path":"sprites/spr_hitbox/spr_hitbox.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"hurtbox_create","path":"scripts/hurtbox_create/hurtbox_create.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
