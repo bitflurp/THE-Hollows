@@ -13,11 +13,12 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"player sprites","order":9,"path":"folders/Sprites/player sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"player sprites","order":9,"path":"folders/Sprites/player sprites.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_player7","order":6,"path":"sprites/spr_player7/spr_player7.yy",},
     {"name":"script_macro","order":2,"path":"scripts/script_macro/script_macro.yy",},
     {"name":"hitbox_create","order":1,"path":"scripts/hitbox_create/hitbox_create.yy",},
     {"name":"spr_wall","order":10,"path":"sprites/spr_wall/spr_wall.yy",},
@@ -32,5 +33,6 @@
     {"name":"spr_player3","order":2,"path":"sprites/spr_player3/spr_player3.yy",},
     {"name":"obj_wall","order":4,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"spr_player4","order":3,"path":"sprites/spr_player4/spr_player4.yy",},
+    {"name":"spr_player8","order":7,"path":"sprites/spr_player8/spr_player8.yy",},
   ],
 }

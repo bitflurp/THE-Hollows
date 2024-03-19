@@ -24,9 +24,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player sprites","folderPath":"folders/Sprites/player sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player sprites","folderPath":"folders/Sprites/player sprites.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -35,6 +35,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"spr_player7","path":"sprites/spr_player7/spr_player7.yy",},},
     {"id":{"name":"script_macro","path":"scripts/script_macro/script_macro.yy",},},
     {"id":{"name":"hitbox_create","path":"scripts/hitbox_create/hitbox_create.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"spr_player4","path":"sprites/spr_player4/spr_player4.yy",},},
     {"id":{"name":"spr_bla","path":"sprites/spr_bla/spr_bla.yy",},},
+    {"id":{"name":"spr_player8","path":"sprites/spr_player8/spr_player8.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
