@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "player sprites",
-    "path": "folders/Sprites/player sprites.yy",
+    "name": "player sprites OUTDATED",
+    "path": "folders/Sprites/player sprites OUTDATED.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -4,9 +4,9 @@
   "name": "spr_p_down",
   "bbox_bottom": 1414,
   "bbox_left": 0,
-  "bbox_right": 719,
-  "bbox_top": 0,
-  "bboxMode": 1,
+  "bbox_right": 718,
+  "bbox_top": 298,
+  "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "player sprites",
-    "path": "folders/Sprites/player sprites.yy",
+    "name": "player sprites OUTDATED",
+    "path": "folders/Sprites/player sprites OUTDATED.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
