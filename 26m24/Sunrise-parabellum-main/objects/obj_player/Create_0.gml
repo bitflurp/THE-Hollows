@@ -5,10 +5,10 @@ key_vert = 0;
 
 
 
-sprite[RIGHT] = spr_p_right;
-sprite[UP] = spr_p_up;
-sprite[LEFT] = spr_p_left;
-sprite[DOWN] = spr_p_down;
+sprite[RIGHT] = spr_blaRIGHT;
+sprite[UP] = spr_blaUP;
+sprite[LEFT] = spr_blaLEFT;
+sprite[DOWN] = spr_blaDOWN;
 
 face = DOWN;
 

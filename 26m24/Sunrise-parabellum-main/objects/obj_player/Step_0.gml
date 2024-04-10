@@ -10,6 +10,14 @@ Key_Attack = keyboard_check_direct(ord("H"));
 key_hor = ( Key_Right - Key_Left) * playerSpeed;
 key_vert = ( Key_Down - Key_Up) *playerSpeed;
 
+//pause
+if instance_exists(obj_pauser)
+{
+ key_hor = 0;
+ key_vert = 0;
+}
+
+
  //SET SPRITE
  mask_index = sprite[spr_p_down];
  if key_vert == 0

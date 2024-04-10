@@ -119,8 +119,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Menu System",
-    "path": "folders/Menu System.yy",
+    "name": "Fonts",
+    "path": "folders/Fonts.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
