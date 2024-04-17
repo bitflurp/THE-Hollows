@@ -19,7 +19,7 @@ if instance_exists(obj_pauser)
 
 
  //SET SPRITE
- mask_index = sprite[spr_p_down];
+ mask_index = sprite[DOWN];
  if key_vert == 0
  {
  if key_hor > 0 {face = RIGHT}

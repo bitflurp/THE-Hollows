@@ -1,5 +1,5 @@
-width = 64;
-height = 104;
+width = 251;
+height = 171;
 
 op_boarder = 8;
 op_space =  16;
