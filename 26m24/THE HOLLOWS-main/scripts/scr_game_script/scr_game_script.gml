@@ -8,9 +8,19 @@ switch(_text_id){
 				scr_text("It was great and i longed to be like him")
 				scr_text("Fiery red, and big as a castle")
 				scr_text("Only one ship like it in the world")
-
+						scr_option("How could I get one of these", "npc 1 - brat")
+						scr_option("Fredric badguy!!! :0", "npc 1 - badguy")
+					
 		break;
+	case"npc 1 - brat": 
+		scr_text("The answer lies there withing your heart")
 	
+	break;
+	
+	case"npc 1 - badguy": 
+		scr_text("solbadguy")
+	
+	break;
 	case"ncp 2":
 				scr_text("Welcome to the infinite world")
 				scr_text("What's my endgame? there came a zero")
