@@ -1,6 +1,6 @@
 //inputs
-key_up = keyboard_check_pressed(ord("W"));
-key_down = keyboard_check_pressed(ord("S"));
+key_up = keyboard_check_pressed(vk_up);
+key_down = keyboard_check_pressed(vk_down);
 key_accept = keyboard_check_pressed(vk_space);
 //menu wackaton
 op_length = array_length(option[menu_level])
