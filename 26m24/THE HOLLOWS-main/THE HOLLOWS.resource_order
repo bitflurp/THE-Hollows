@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_items_manager","order":1,"path":"objects/obj_items_manager/obj_items_manager.yy",},
+    {"name":"obj_item_overworld","order":2,"path":"objects/obj_item_overworld/obj_item_overworld.yy",},
+    {"name":"rm_init","order":1,"path":"rooms/rm_init/rm_init.yy",},
+    {"name":"item_functions","order":1,"path":"scripts/item_functions/item_functions.yy",},
+    {"name":"spr_blaDOWN","order":3,"path":"sprites/spr_blaDOWN/spr_blaDOWN.yy",},
+    {"name":"spr_blaRIGHT","order":1,"path":"sprites/spr_blaRIGHT/spr_blaRIGHT.yy",},
+    {"name":"spr_blaUP","order":2,"path":"sprites/spr_blaUP/spr_blaUP.yy",},
+    {"name":"spr_key","order":5,"path":"sprites/spr_key/spr_key.yy",},
+    {"name":"spr_sword","order":6,"path":"sprites/spr_sword/spr_sword.yy",},
+    {"name":"spr_textbox_arrow","order":4,"path":"sprites/spr_textbox_arrow/spr_textbox_arrow.yy",},
+  ],
+}

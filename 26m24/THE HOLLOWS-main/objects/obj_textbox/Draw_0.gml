@@ -96,9 +96,9 @@ if key_accept
 		draw_sprite_ext(txtb_spr, textb_img, _txtb_hor + 25, _txtb_vert - _op_space*option_number + _op_space*op, _o_w/txtb_spr_w, (_op_space -1)/txtb_spr_h, 0, c_white, 1)
 		
 		//arrow broken for some reason
-		//if option_pos == op {
-		//draw_sprite(spr_textbox_arrow,0,_txtb_hor, _txtb_vert - _op_space*option_number + _op_space*op)
-		//}	
+	if option_pos == op {
+		draw_sprite(spr_textbox_arrow,0,_txtb_hor, _txtb_vert - _op_space*option_number + _op_space*op)
+		}	
 				
 			
 		//option text
