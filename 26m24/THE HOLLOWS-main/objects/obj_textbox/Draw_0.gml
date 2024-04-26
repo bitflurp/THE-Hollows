@@ -48,6 +48,10 @@ if key_accept
 			}
 				//destroy textbox
 				else{
+				//link dialog
+				if option_number > 0{
+				create_textbox(option_link_id[option_pos]);
+				}
 				instance_destroy();
 			
 				}
@@ -74,17 +78,32 @@ if key_accept
 	draw_sprite_ext(txtb_spr, textb_img, _txtb_hor, _txtb_vert, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white,1);
 	
 		//options; _op_space = the virtical distance between the options; _op_board = border around the text  
+	
+	
+	
 	if draw_char == text_length[page] && page == page_number -1 {
-		
+	//option select
+	option_pos += keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
+	option_pos = clamp(option_pos, 0, option_number -1);
+	//draw options	
 		var _op_space = 15;
 		var _op_board = 4;
-		for (var op = 0; op < page_number; op++){
+		for (var op = 0; op < option_number; op++){
 			
+
 		//option box _o_w is option width
 		var _o_w = string_width(option[op]) + _op_board*2;
 		draw_sprite_ext(txtb_spr, textb_img, _txtb_hor + 25, _txtb_vert - _op_space*option_number + _op_space*op, _o_w/txtb_spr_w, (_op_space -1)/txtb_spr_h, 0, c_white, 1)
+		
+		//arrow broken for some reason
+		//if option_pos == op {
+		//draw_sprite(spr_textbox_arrow,0,_txtb_hor, _txtb_vert - _op_space*option_number + _op_space*op)
+		//}	
+				
+			
 		//option text
 		draw_text(_txtb_hor + 25 + _op_board, _txtb_vert - _op_space*option_number + _op_space*op +2, option[op]);
+		
 		
 		
 		
@@ -97,7 +116,6 @@ if key_accept
 	//draw the text
 	var _drawtext = string_copy(text[page], 1, draw_char);
 	draw_text_ext(_txtb_hor + border, _txtb_vert + border, _drawtext, line_sep, line_width);
-
 
 
 
