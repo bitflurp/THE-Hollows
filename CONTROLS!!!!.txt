@@ -17,4 +17,7 @@ click on speach block
 go through dialog
 E
 
+pick up items
+walk over
 
+hover over items to get item descriptions
