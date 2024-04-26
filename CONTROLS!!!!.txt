@@ -1,0 +1,20 @@
+CONTROLS!!!!
+start game
+spacebar
+
+menus
+arrow keys
+
+movement;
+w a s d
+
+run
+shift forward
+
+talk
+click on speach block
+
+go through dialog
+E
+
+
